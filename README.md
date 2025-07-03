@@ -13,7 +13,7 @@ target = 6
 Output: [1,2] indices
 
 
-**LongestCommonPrefix**
+**#LongestCommonPrefix**
 
 This Java solution finds the longest common prefix shared by all strings in a given array. It starts by assuming the first string as the prefix, then compares it with each remaining string. If a string doesn't start with the current prefix, the prefix is shortened one character at a time until it matches or becomes empty. This process continues until all strings have been checked. The final result is the longest starting substring common to all strings. This approach is easy to understand and efficient for solving prefix-related string problems.
 
