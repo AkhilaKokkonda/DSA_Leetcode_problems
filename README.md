@@ -20,5 +20,6 @@ This Java solution finds the longest common prefix shared by all strings in a gi
 **Example:**
 Input: ["flower", "flow", "flight"]
 Output: "fl"
+
 All three words start with "fl", so the longest common prefix is "fl".
 
