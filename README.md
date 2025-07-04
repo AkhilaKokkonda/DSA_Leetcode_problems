@@ -2,7 +2,7 @@
 Solving DSA problems from LeetCode in Java to prepare for coding interviews and improve logic building.
 
 
-**#TwoSum**
+**TwoSum**
 
 **Problem Explanation:**
 
@@ -18,9 +18,9 @@ target = 6
 
 **Problem Explanation:**
 
-**#LongestCommonPrefix**
+**LongestCommonPrefix**
 
-This Java solution finds the longest common prefix shared by all strings in a given array. It starts by assuming the first string as the prefix, then compares it with each remaining string. If a string doesn't start with the current prefix, the prefix is shortened one character at a time until it matches or becomes empty. This process continues until all strings have been checked. The final result is the longest starting substring common to all strings. This approach is easy to understand and efficient for solving prefix-related string problems.
+This Java solution finds the longest common prefix shared by all strings in a given array. It starts by assuming the first string as the prefix, then compares it with each remaining string. If a string doesn't start with the current prefix, the prefix is shortened one character at a time until it matches or becomes empty. This process continues until all strings have been checked. The final result is the longest starting substring common to all strings. This approach is easy to understand and efficient for solving prefix-related string problems.The time complexity is O(S), with S being the total characters in all strings, as each character is checked at most once. Space complexity is O(1).
 
 **Example:**
 **Input:** ["flower", "flow", "flight"]
